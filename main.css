@@ -535,6 +535,9 @@ contrast(87%);
     .price span{
         font-size: 14px;
     }
+    .button{
+        width: 200px;
+    }
 }      
 @media (max-width:768px){
     .container {
@@ -616,9 +619,6 @@ contrast(87%);
         font-size: 18px;
         line-height: 36px;
         text-align: center;
-    }
-    .price button{
-        margin: 40px auto 0 auto;
     }
     .price:last-child{
         margin-bottom: 80px;
@@ -730,11 +730,14 @@ contrast(87%);
         overflow: hidden;
     }    
 }
-@media (max-width:480px){   
+@media (max-width:480px){
+    .sun{
+        margin-left: 10px;
+    }   
     .hero-text{
         margin-left:15px;
         padding-top: 58px;
-        width: 375px;
+        width: 340px;
     }
     .hero-title{
         font-size: 30px;
@@ -743,19 +746,19 @@ contrast(87%);
     }
     .hero-description{
         font-size: 18px;
-        width: 300px;
+        width: 90%;
         margin-top: 15px;
     }
     .line-title{
-        width: 365px;
+        width: 90%;
         padding-top: 80px;
         padding-bottom: 50px;         
     }
     .portfolio-buttons{
-        width: 400px;
+        width: 360px;
     }
     .portfolio-button{
-        width: 180px;
+        width: 140px;
     }
     .portfolio-image{
         width:330px;
@@ -771,16 +774,16 @@ contrast(87%);
     }
     .contact-title{
         font-size: 32px;
-        width: 380px;
+        width: 100%;
     }
     .contact{
-        width: 380px;
+        width: 100%;
     }
     .contact input{
-        width: 360px;   
+        width: 100%;   
     }
     .contact textarea{
-        width: 360px;   
+        width: 100%; 
     }
     .header-line{
         background: url('./assets/img/bg2.jpg');
